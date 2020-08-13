@@ -533,7 +533,8 @@ font-family: "Roboto", sans-serif; */
   border: 1px solid var(--accent-color);
 }
 
-.customer-item:hover .customer-clients {
+.customer-item:hover .customer-clients,
+.customer-item:focus .customer-clients {
   fill: var(--accent-color);
 }
 /* Portfolio */
