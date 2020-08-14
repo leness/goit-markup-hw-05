@@ -267,6 +267,7 @@ font-family: "Roboto", sans-serif; */
 }
 
 .feature-list {
+  /* position: relative; */
   display: flex;
 
   padding-bottom: 94px;
@@ -278,6 +279,32 @@ font-family: "Roboto", sans-serif; */
 
 .applications-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.applications-item {
+  position: relative;
+}
+
+.applications {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 27px 82px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.studio {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
 }
 
 .tehnokrjak {
@@ -376,21 +403,6 @@ font-family: "Roboto", sans-serif; */
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
-
-.applications {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 27px 82px;
-
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-  background: rgba(47, 48, 58, 0.8);
 }
 
 .text-title {
@@ -560,6 +572,9 @@ font-family: "Roboto", sans-serif; */
 
   box-sizing: border-box;
   width: 370px;
+
+  /* margin-top: 0;
+  margin-bottom: 0; */
 }
 
 .projects:hover {
