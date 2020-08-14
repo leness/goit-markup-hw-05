@@ -575,6 +575,7 @@ font-family: "Roboto", sans-serif; */
 
   /* margin-top: 0;
   margin-bottom: 0; */
+  overflow: hidden;
 }
 
 .projects:hover {
@@ -591,7 +592,7 @@ font-family: "Roboto", sans-serif; */
 }
 
 /* .product {
-  overflow: hidden;
+  overflow-y: hidden;
 } */
 
 .overlay-port {
