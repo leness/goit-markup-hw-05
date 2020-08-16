@@ -26,13 +26,6 @@ font-family: "Roboto", sans-serif; */
   outline: 2px solid red;
 }
 
-.header {
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #ececec;
-}
-
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -90,8 +83,6 @@ font-family: "Roboto", sans-serif; */
 }
 
 .menu-link {
-  /* position: relative; */
-
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -103,6 +94,7 @@ font-family: "Roboto", sans-serif; */
   color: var(--primary-text-color);
   text-decoration: none;
   outline: 1px solid green;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link::after {
@@ -118,6 +110,7 @@ font-family: "Roboto", sans-serif; */
   border-radius: 2px;
   background-color: var(--accent-color);
   opacity: 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover::after,
@@ -138,7 +131,6 @@ font-family: "Roboto", sans-serif; */
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-icon {
@@ -164,6 +156,7 @@ font-family: "Roboto", sans-serif; */
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-text-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-icon {
@@ -194,6 +187,13 @@ font-family: "Roboto", sans-serif; */
 .flexbox {
   display: flex;
   justify-content: flex-end;
+}
+
+hr {
+  width: 1600px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid #ececec;
 }
 
 .btn {
